@@ -1,4 +1,29 @@
-h1 {
+h1{
       font-family: "Sour Gummy", sans-serif;
-      font-size: 36px;
+      font-size: 36px; 
+      font-weight: 100;
+
+      /* for any other font property beyond bold and italic, use font-variation setting*/
+      font-variation-settings: "wdth" 100;
+
+      transition:all 3s;
+}
+
+h1:hover{
+  font-weight: 900;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+p{
+   font-family: "Bentham", serif;
+}
+
+/* must have both width and height set of an iframe */
+.maps{
+    width: 50vw;
+    height: 35vw;
 }
